@@ -22,10 +22,11 @@ background: #F0F0F0;
     justify-content: flex-start;
     position: fixed;
     z-index: 999;
-    padding: 0 20px;
+    padding: 0 30px;
     background: #FFF;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    gap: 601px;
+    gap: 690px;
+
 }
 .logo{
     width: 40px;
@@ -34,7 +35,7 @@ background: #F0F0F0;
 .nav-div{
     display: flex;
     align-items: center;
-    gap: 70px;
+    gap: 85px;
     width: auto;
    
         background: #FFF;

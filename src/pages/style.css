@@ -8,7 +8,7 @@ body{
     height: auto;
     margin: 0;
     padding: 0;
-
+background: #F0F0F0;
 
 
 }
@@ -33,6 +33,7 @@ body{
     align-items: center;
     gap: 70px;
     width: auto;
+        background: #FFF;
 }
 .big-div{
 width: 345px;
@@ -42,7 +43,7 @@ flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 padding: 50px 20px;
-
+    background: #FFF;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 .watch-big-div{
@@ -55,6 +56,7 @@ padding: 50px 20px;
   padding-left: 20px;
    padding-top: 100px;
    padding-bottom: 70px;
+       background: #FFF;
    
 }
 .comp1-big-div{
@@ -65,28 +67,43 @@ padding: 50px 20px;
     align-items: flex-start;
     justify-content: flex-start;
   padding-left: 20px;
+      background: #FFF;
 
    
 }
 .middel-comp{
-    width: 1440px;
+    width: 1088px;
     height: auto;
-
+   gap: 40px;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
-align-items: center;
-padding: 50px 20px;
+align-items: flex-start;
+padding: 30px 20px;
 }
 .cards-big-div{
-    width: 1440px;
-    height: auto;
-
+    width: 1088px;
+    height: 380px;
+   border-radius: 7px;
+background: #FFF;
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
 align-items: center;
 gap: 20px;
+padding: 20px;
+}
+.comp2-big-div{
+     width: 1088px;
+    height: 184px;
+   border-radius: 7px;
+background: #FFF;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 20px;
+padding: 30px 20px;
 }
 main{
     display: flex;

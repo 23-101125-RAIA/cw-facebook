@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
 import './style.css'
 import logo from "../asserts/Group 1.png"
 import Navicon from '../componaents/navicon'
@@ -8,6 +8,7 @@ import Btn1 from '../componaents/btn1';
 import Titlebtn from '../componaents/title';
 import Comp1 from '../componaents/Comp1';
 import Card from '../componaents/card';
+import Comp2 from '../componaents/comp2';
 
 const Home = () => {
     return ( <>
@@ -52,7 +53,12 @@ const Home = () => {
             <Card />
 
         </article>
+
+        <article className='comp2-big-div'>
+            <Comp2 />
+        </article>
     </section>
+    
 
     </main>
  </body>

@@ -1,0 +1,68 @@
+.comp2-div{
+width: 100%;
+height: auto;
+display: flex;
+gap: 15px;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.comp2-ava{
+    width: 50px;
+height: auto;
+}
+
+.comp2-input{
+    width: 100%;
+    height: 50px;
+    border-radius: 31px;
+    background: #F0F2F5;
+    border: none;
+    padding: 0 20px;
+    outline: none;
+    font-size: 16px;
+}
+
+
+.comp2-input::placeholder{
+    color: #65676B;
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.comp2-input:focus::placeholder{
+    opacity: 0;
+}
+.comp2-div2{
+    width: 1088px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 0.2px solid #6b6b6b;
+    padding-top: 20px;
+    
+}
+.comp2-div3{
+    width: auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.comp2-icon{
+width: 30px;
+height: auto;
+}
+.comp2-text{
+    color: #65676B;
+font-family: ABeeZee;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+

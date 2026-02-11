@@ -1,3 +1,5 @@
+
+
 *{
     padding: 0;
     margin: 0;
@@ -20,7 +22,7 @@ background: #F0F0F0;
     justify-content: flex-start;
     position: fixed;
     z-index: 999;
-    padding: 0 100px;
+    padding: 0 20px;
     background: #FFF;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     gap: 601px;

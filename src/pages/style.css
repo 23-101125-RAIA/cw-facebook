@@ -42,7 +42,7 @@ background: #F0F0F0;
 }
 .big-div{
 width: 384px;
-height: 1658px;
+height: 243vh;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -116,7 +116,7 @@ padding: 30px 20px;
 .left-big-div{
 
 width: 408px;
-height: 1658px;
+height: 243vh;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -142,6 +142,6 @@ gap: 20px;
 main{
     display: flex;
     gap: 20px;
-        height: 174vh;
+        height: 243vh;
     overflow: hidden;
 }

@@ -6,6 +6,8 @@ import Navicon from '../componaents/navicon'
 import Watchbtn from '../componaents/watchbtn';
 import Btn1 from '../componaents/btn1';
 import Titlebtn from '../componaents/title';
+import Comp1 from '../componaents/Comp1';
+import Card from '../componaents/card';
 
 const Home = () => {
     return ( <>
@@ -22,18 +24,37 @@ const Home = () => {
     </div>
     
     </nav>
+    <main>
     <section className='big-div'>
         <Btn1 />
-        <div className='watch-big-div'>
+        <article className='watch-big-div'>
             <Watchbtn />
               <Watchbtn />
                 <Watchbtn />
                   <Watchbtn />
-        </div>
+        </article>
         <Titlebtn />
+        <article className='comp1-big-div'>
+            <Comp1 />
+            <Comp1 />
+            <Comp1 />
+            <Comp1 />
+            <Comp1 />
+            <Comp1 />
+        </article>
     </section>
 
-    
+    <section className='middel-comp'>
+        <article className='cards-big-div'>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+
+        </article>
+    </section>
+
+    </main>
  </body>
     
     </> );

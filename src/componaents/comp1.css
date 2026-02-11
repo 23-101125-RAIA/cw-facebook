@@ -1,0 +1,21 @@
+.comp1-div{
+    width: 345px;
+    height: auto;
+    display: flex;
+gap: 10px;
+    align-items: center;
+    
+
+}
+.comp1-img{
+    width: 50px;
+height: auto;
+}
+.comp1-text{
+    color: #000;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}

@@ -1,0 +1,19 @@
+.watchicon{
+   width: 20px;
+height: auto; 
+}
+.watchtext{
+  color: #000;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;  
+}
+.watch-div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   width: auto;
+   
+}

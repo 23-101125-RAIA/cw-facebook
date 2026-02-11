@@ -1,9 +1,9 @@
 import React from 'react';
-import '.'
+import './btn1.css'
 
 const Btn1 = () => {
     return ( <>
-    <button className='btn1'>Confirm</button>
+    <button className='btn'>Confirm</button>
     </> );
 }
  

@@ -73,6 +73,8 @@ const Home = () => {
         <Comp3 />
     <Comp3 />
 
+    <Titlebtn />
+
     </section>
 
     </main>

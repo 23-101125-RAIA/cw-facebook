@@ -8,7 +8,8 @@ const Home = () => {
     return ( <>
     
  <body>
-    <nav className='nav'><img className='logo' src={logo} />
+    <nav className='nav'>
+        <img className='logo' src={logo}  alt=""/>
     <div className='nav-div'>
         <Navicon />
           <Navicon />

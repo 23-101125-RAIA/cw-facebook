@@ -10,6 +10,7 @@ import Comp1 from '../componaents/Comp1';
 import Card from '../componaents/card';
 import Comp2 from '../componaents/comp2';
 import Post from '../componaents/post';
+import Comp3 from '../componaents/comp3';
 
 const Home = () => {
     return ( <>
@@ -63,10 +64,16 @@ const Home = () => {
   <Post />
   <Post />
   
+  
 
 
     </section>
-    
+    <section className='left-big-div'>
+        <Titlebtn />
+        <Comp3 />
+    <Comp3 />
+
+    </section>
 
     </main>
  </body>

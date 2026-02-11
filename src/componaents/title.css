@@ -1,6 +1,6 @@
 .title-div{
-width: 345px;
-padding: 20px;
+width: 100%;
+padding-bottom: 20px;
 display: flex;
 align-items: center;
 justify-content: space-between;

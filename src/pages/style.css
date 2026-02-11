@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    width: 1920px;
+    width: 100%;
     height: auto;
     margin: 0;
     padding: 0;
@@ -18,7 +18,8 @@ background: #F0F0F0;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-   
+    position: fixed;
+    z-index: 999;
     padding: 0 100px;
     background: #FFF;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
@@ -33,6 +34,7 @@ background: #F0F0F0;
     align-items: center;
     gap: 70px;
     width: auto;
+   
         background: #FFF;
 }
 .big-div{
@@ -44,6 +46,7 @@ justify-content: flex-start;
 align-items: center;
 padding: 50px 20px;
     background: #FFF;
+    margin-top: 100px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 .watch-big-div{
@@ -72,7 +75,7 @@ padding: 50px 20px;
    
 }
 .middel-comp{
-    width: 1088px;
+    width: 1194px;
     height: auto;
    gap: 40px;
 display: flex;
@@ -80,9 +83,10 @@ flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
 padding: 30px 20px;
+margin-top: 100px;
 }
 .cards-big-div{
-    width: 1088px;
+    width: 100%;
     height: 380px;
    border-radius: 7px;
 background: #FFF;
@@ -94,7 +98,7 @@ gap: 20px;
 padding: 20px;
 }
 .comp2-big-div{
-     width: 1088px;
+     width: 100%;
     height: 184px;
    border-radius: 7px;
 background: #FFF;
@@ -103,7 +107,23 @@ flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
 gap: 20px;
+
 padding: 30px 20px;
+}
+.left-big-div{
+
+width: 408px;
+height: 1658px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 50px 20px;
+   
+    margin-top: 100px;
+  box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.25);
+  
+  
 }
 main{
     display: flex;

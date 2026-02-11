@@ -11,6 +11,7 @@ import Card from '../componaents/card';
 import Comp2 from '../componaents/comp2';
 import Post from '../componaents/post';
 import Comp3 from '../componaents/comp3';
+import Comp5 from '../componaents/comp5';
 
 const Home = () => {
     return ( <>
@@ -74,7 +75,14 @@ const Home = () => {
     <Comp3 />
 
     <Titlebtn />
-
+<article className='comp5-big-div'>
+    <Comp5 />
+    <Comp5 />
+    <Comp5 />
+    <Comp5 />
+    <Comp5 />
+    <Comp5 />
+</article>
     </section>
 
     </main>
